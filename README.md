@@ -34,9 +34,9 @@ The ``pydensecrf`` dependency requires ``cython``. Apart from that, it should wo
 
 ## Tutorials on CRF:
 
-https://www.youtube.com/watch?v=rc3YDj5GiVM
-https://www.youtube.com/watch?v=nZVH4Rwj9-U
-https://github.com/seth814/Semantic-Shapes/blob/master/CRF%20Cat%20Demo.ipynb
+https://www.youtube.com/watch?v=rc3YDj5GiVM  
+https://www.youtube.com/watch?v=nZVH4Rwj9-U  
+https://github.com/seth814/Semantic-Shapes/blob/master/CRF%20Cat%20Demo.ipynb  
 
 
 ## Gallery:
@@ -48,3 +48,10 @@ The following images exemplify the pipeline.
 ![](assets/2_resized_activations_carpet.png)
 ![](assets/3_refined_activations_carpet.png)
 ![](assets/4_full_scene_segmentation.png)
+
+
+## TODO:
+
+* Replace sliding window with more efficient method (YOLO? sampling?)
+* Fix padding when upsizing
+* Hyperparametrize/train CRF
