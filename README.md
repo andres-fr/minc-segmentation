@@ -27,7 +27,7 @@ The script has been adapted to our specific needs, namely:
 
 ## Installation
 
-Installing Caffe used to be a pain in the `5*7*13`. This time it was very straightforward by using conda on ubuntu 18.04: https://anaconda.org/conda-forge/caffe
+Installing Caffe used to be rather involved. It became very straightforward using Anaconda on Ubuntu 18.04: https://anaconda.org/conda-forge/caffe
 
 The ``pydensecrf`` dependency requires ``cython``. Apart from that, it should work out fine with few installs from a fresh environment.
 
@@ -48,10 +48,3 @@ The following images exemplify the pipeline.
 ![](assets/2_resized_activations_carpet.png)
 ![](assets/3_refined_activations_carpet.png)
 ![](assets/4_full_scene_segmentation.png)
-
-
-## TODO:
-
-* Replace sliding window with more efficient method (YOLO? sampling?)
-* Fix padding when upsizing
-* Hyperparametrize/train CRF
